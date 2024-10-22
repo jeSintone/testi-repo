@@ -71,6 +71,7 @@ public class kiviPaperiSakset {
         Random random = new Random();
         int kpsValinta = random.nextInt(3);
         //Tänne tehdään nyt paljon muutoksii
+        //Usi muutos
         return kpsValinta;
     }
     public static int voittajanTarkistus(int kpsPelaajaNumeroina, int kpsTietokone) {
