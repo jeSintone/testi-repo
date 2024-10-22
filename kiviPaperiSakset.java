@@ -34,7 +34,8 @@ public class kiviPaperiSakset {
                 }
                 
                 System.out.println("\nPelaaja valitsi: " + kpsValintaString(kpsPelaajaNumeroina));
-                
+                //Taa olis lisatty tanne nyt
+                System.out.println("No nyt tää menee sekasi");
                 kpsTietokone = tietokoneenValinta();
                 voittaja = voittajanTarkistus(kpsPelaajaNumeroina, kpsTietokone);
                 // minkä tietokone valitsi:
