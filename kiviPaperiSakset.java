@@ -3,7 +3,7 @@ import java.util.*;
 
 public class kiviPaperiSakset {
     public static void main(String[] args) {
-        
+        //Alkuun muutos line
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
         int voitotPelaaja = 0;
@@ -64,12 +64,15 @@ public class kiviPaperiSakset {
             
         }
         catch (Exception e) {
+            //Muokataan tänne
             System.out.print("Virhe tuli: " + e.getMessage());
         } 
     }
     public static int tietokoneenValinta() {
         Random random = new Random();
         int kpsValinta = random.nextInt(3);
+        //Tänne tehdään nyt paljon muutoksii
+        //Usi muutos
         return kpsValinta;
     }
     public static int voittajanTarkistus(int kpsPelaajaNumeroina, int kpsTietokone) {
